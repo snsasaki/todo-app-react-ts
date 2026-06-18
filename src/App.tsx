@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div>
-      <h1>型付き Todo アプリ</h1>
+      <h1>Todoアプリ react-ts</h1>
       {/* onAdd の型は (text: string) => void ← TodoForm の Props と一致 */}
       <TodoForm onAdd={handleAdd} />
       <ul>
